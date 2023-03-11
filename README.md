@@ -43,7 +43,7 @@ ADMIN_ROLE can addMinter,removeMinter. MINTER_ROLE can safeMint.All are initiall
 
 # NodeJS Scripts 
 
-There are two NodeJS scripts were written in the project.
+There are two NodeJS scripts are written in the project.
 
 1.indexFactory.js
 
@@ -63,7 +63,7 @@ It will get address of the deployed Nft contract through getContractAddress()
 # indexDnft.js
 
 If you run this script:-
-Required calling functions are commented out at the bottom,we can according to our requirement.
+Required calling functions are commented out at the bottom,we can use according to our requirement.
 
 It will mint a dynamicNft through safeMint() [#token is minted on basis of deployed dynamicNft contract's parameters(name,symbol,BaseURI)].
 
@@ -71,7 +71,7 @@ It will update the URI of specific tokenId through updateTokenURI()
 
 It will also give tokenURI through getTokenURI()
 
-use one function at a time ,so that they will work in correct oder according to our requirment. If we call al the three they will contradict eachother.
+use one function at a time ,so that they will work in correct oder according to our requirment. 
 
 # Main Packages Used:
 
