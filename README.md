@@ -29,8 +29,7 @@ In this smartContract there is function defined called 'updateTokenURI',that can
 TokenId that is already minted.This functionality makes a dynamic Nft, where you can  change metadata.
 
 The metadata is hosted on IPFS (Inter Planetary File System).
-BaseURI that used to deploy dynamicNft contract is "https://ipfs.io/ipfs/QmYQ9rsWAVFEv4CQB5mqUYjK9WV577dsSMTdELfw9eUy8a/lifeCycle_MetaData/" (on etherscan).
-
+BaseURI that used to deploy dynamicNft contract is "https://ipfs.io/ipfs/QmYQ9rsWAVFEv4CQB5mqUYjK9WV577dsSMTdELfw9eUy8a/lifeCycle_MetaData/".
 
 TokenURI's that can be used to mint this deployed contract are "child.json","teen.json","adult.json"(we can use anyone tokenURI to mint Nft and change
 metadata through 'updateTokenURI' function).
